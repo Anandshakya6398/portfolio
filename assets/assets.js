@@ -44,11 +44,11 @@ import react from './react.png';
 import Redux from './redux.png';
 import next from './next.png';
 import nod from './node.png';
-import githb from './tha.png'
-import xt from './x.png'
-import linked from './thaa.png'
-import insta from './Insta.png'
-import coffee from '../public/coffee1.png'
+import githb from './tha.png';
+import xt from './x.png';
+import linked from './thaa.png';
+import insta from './Insta.png';
+
 
 
 export const assets = {
@@ -102,7 +102,7 @@ export const assets = {
     xt,
     linked,
     insta,
-    coffee,
+
 };
 
 
