@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+  font-family: Outfit;
+  background:(bg-gradient-to-r from-indigo-200 via-purple-200 to-zinc-200);
+ 
+} */
+
+
+* {
+  font-family: Outfit;
+  /* background: linear-gradient(to right, #c3dafe, #e0c3fc, #e2e8f0); */
+}
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+  */
+
+/* body {
+  
+  background: var(--bg-gradient-to-r from-indigo-200 via-purple-200 to-zinc-200);
+  font-family: Arial, Helvetica, sans-serif;
+}  */
