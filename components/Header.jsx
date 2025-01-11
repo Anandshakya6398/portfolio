@@ -38,7 +38,7 @@ const Header = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a
-            data-aos="zoom-in-right"
+          
               href="#contact"
               className="px-10 py-3 border border-white rounded-full bg-black hover:bg-blue-950 text-white flex items-center gap-2"
             >
@@ -50,7 +50,7 @@ const Header = () => {
               />
             </a>
             <a
-            data-aos="zoom-in-left"
+        
               href="/sample-resume.pdf"
             target="_blank"
               className="px-10   py-3 border rounded-full border-gray-500 flex items-center gap-2"
