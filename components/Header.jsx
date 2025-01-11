@@ -52,6 +52,7 @@ const Header = () => {
             <a
             data-aos="zoom-in-left"
               href="/sample-resume.pdf"
+            target="_blank"
               className="px-10   py-3 border rounded-full border-gray-500 flex items-center gap-2"
             >
               my resume{" "}
