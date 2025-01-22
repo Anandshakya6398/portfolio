@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
+
 
 const Header = () => {
   return (
@@ -51,8 +52,8 @@ const Header = () => {
             </a>
             <a
             data-aos="zoom-in-left"
-              href="/sample-resume.pdf"
-              download
+              href="/Resume.pdf"
+              target="_blank"
               className="px-10   py-3 border rounded-full border-gray-500 flex items-center gap-2"
             >
               my resume{" "}

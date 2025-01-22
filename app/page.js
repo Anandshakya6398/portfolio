@@ -12,7 +12,6 @@ import Footer from "@/components/Footer";
 
 
 
-
 export default function Home() {
  
   useEffect(() => {
@@ -24,6 +23,7 @@ export default function Home() {
 
   return (
     <>
+ {/* <Spinner/> */}
 <Navbar/>
 <Header/>
 <About/>

@@ -26,35 +26,58 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className={`select-none w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white " : ""} `}>
+      <nav
+        className={`select-none w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${
+          isScroll ? "bg-white " : ""
+        } `}
+      >
         <a href="#home">
-         <h4 className="text-4xl font-Cedarville_Cursive">Portfolio</h4>
+          <h4 className="text-4xl font-Cedarville_Cursive">Portfolio</h4>
         </a>
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-xl bg-opacity-50 "} `}>
+        <ul
+          className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
+            isScroll ? "" : "bg-white shadow-xl bg-opacity-50 "
+          } `}
+        >
           <li>
-            <a href="#top" className="font-Cedarville_Cursive hover:text-blue-600 ">
+            <a
+              href="#top"
+              className="font-Cedarville_Cursive hover:text-blue-600 "
+            >
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="font-Cedarville_Cursive hover:text-blue-600">
+            <a
+              href="#about"
+              className="font-Cedarville_Cursive hover:text-blue-600"
+            >
               About Me
             </a>
           </li>
           <li>
             {" "}
-            <a href="#skills" className="font-Cedarville_Cursive hover:text-blue-600">
+            <a
+              href="#skills"
+              className="font-Cedarville_Cursive hover:text-blue-600"
+            >
               Skills
             </a>
           </li>
           <li>
-            <a href="#project" className="font-Cedarville_Cursive hover:text-blue-600">
+            <a
+              href="#project"
+              className="font-Cedarville_Cursive hover:text-blue-600"
+            >
               Projects
             </a>
           </li>
           <li>
             {" "}
-            <a href="#contact" className="font-Cedarville_Cursive hover:text-blue-600">
+            <a
+              href="#contact"
+              className="font-Cedarville_Cursive hover:text-blue-600"
+            >
               Contact Me
             </a>
           </li>
@@ -88,49 +111,29 @@ const Navbar = () => {
             />
           </div>
           <li>
-            <a
-              href="#top"
-              className="font-Outfit"
-              onClick={closeMenu}
-            >
+            <a href="#top" className="font-Outfit" onClick={closeMenu}>
               Home
             </a>{" "}
           </li>
           <li>
-            <a
-              href="#about"
-              className="font-Outfit"
-              onClick={closeMenu}
-            >
+            <a href="#about" className="font-Outfit" onClick={closeMenu}>
               About Me
             </a>
           </li>
           <li>
             {" "}
-            <a
-              href="#skills"
-              className="font-Outfit"
-              onClick={closeMenu}
-            >
+            <a href="#skills" className="font-Outfit" onClick={closeMenu}>
               Skills
             </a>
           </li>
           <li>
-            <a
-              href="#projects"
-              className="font-Outfit"
-              onClick={closeMenu}
-            >
+            <a href="#projects" className="font-Outfit" onClick={closeMenu}>
               Projects
             </a>
           </li>
           <li>
             {" "}
-            <a
-              href="#contact"
-              className="font-Outfit"
-              onClick={closeMenu}
-            >
+            <a href="#contact" className="font-Outfit" onClick={closeMenu}>
               Contact Me
             </a>
           </li>
