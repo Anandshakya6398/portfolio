@@ -108,7 +108,7 @@ const Contact = () => {
               className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
             />
             <input
-            data-aos="zoom-in-left"
+            data-aos="zoom-out-left"
               type="email"
               name="email" 
               placeholder="Enter your Email"

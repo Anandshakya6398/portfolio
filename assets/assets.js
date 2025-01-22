@@ -48,6 +48,7 @@ import githb from './tha.png'
 import xt from './x.png'
 import linked from './thaa.png'
 import insta from './Insta.png'
+// import coffee from '../public/coffee1.png'
 
 
 export const assets = {
@@ -101,6 +102,7 @@ export const assets = {
     xt,
     linked,
     insta,
+    // coffee,
 };
 
 
