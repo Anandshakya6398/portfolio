@@ -132,7 +132,7 @@ const Contact = () => {
           >
           Submit Now
           </button>
-          <p className="mt-4 text-green-900 font-semibold font-Cedarville_Cursive">{result}</p>
+          <p className="mt-4 text-green-400 font-semibold font-Cedarville_Cursive">{result}</p>
         </form>
       </div>
     </div>
