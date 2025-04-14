@@ -20,7 +20,7 @@ const About = () => {
           <Image
             src={assets.user_image}
             alt="user"
-            className="w-full rounded-3xl"
+            className="w-full rounded-3xl hover:scale-105 duration-300 cursor-pointer"
           />
         </div>
         <div className="flex-1">
