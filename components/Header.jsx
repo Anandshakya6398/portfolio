@@ -20,7 +20,7 @@ const Header = () => {
             <Image
               src={assets.profile_img}
               alt=""
-              className=" rounded-full w-32"
+              className=" rounded-full w-32 duration-300 hover:scale-110 cursor-pointer"
             />
           </div>
           <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Outfit">
@@ -31,11 +31,11 @@ const Header = () => {
           data-aos="zoom-in"
           className="text-3xl sm:text-6xl lg:text-[66px] font-Outfit">
             {" "}
-            Frontend Developer
+            FullStack Developer
           </h1>
           <p className="max-w-2xl mx-auto font-Outfit">
-            I am a Frontend Web Developer , I build many projects using HTML,
-            CSS, JavaScript, React, Redux, and Next.js.
+            I am a Fullstack Web Developer , I build many projects using HTML,
+            CSS, JavaScript, React, Redux, and Next.js and also I have knowledge of Node.js, Express.js, and MongoDB. 
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a

@@ -16,11 +16,11 @@ const About = () => {
       <div className="flex w-full flex-col lg:flex-row items-center gap-10 md:gap-16 my-10 md:my-16">
         <div 
         data-aos="zoom-in-right"
-        className="w-56 sm:w-72 rounded-3xl max-w-none">
+        className="w-56 sm:w-72 rounded-3xl max-w-none ">
           <Image
             src={assets.user_image}
             alt="user"
-            className="w-full rounded-3xl"
+            className="w-full rounded-3xl hover:scale-105 duration-300 cursor-pointer"
           />
         </div>
         <div className="flex-1">
@@ -28,7 +28,7 @@ const About = () => {
           data-aos="zoom-in-left"
            className="mb-10 max-w-2xl font-Outfit">
             {" "}
-            I am a Frontend Web Developer , I build many projects using HTML,
+            I am a Fullstack Web Developer , I build many projects using HTML,
             CSS, JavaScript, React, Redux, and Next.js. I am passionate about
             building responsive, user-friendly, and visually appealing web
             applications. I am always eager to learn new technologies and

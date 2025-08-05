@@ -9,11 +9,9 @@ import vscode from './vscode.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
-import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
-import logo1 from './anand.png'
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
 import profile_img from './anand1.jpg';
@@ -44,6 +42,9 @@ import react from './react.png';
 import Redux from './redux.png';
 import next from './next.png';
 import nod from './node.png';
+import shadcn from './shadcn.png'
+import express from './express.png'
+import mongodb from './mongodb.png';
 import githb from './tha.png'
 import xt from './x.png'
 import linked from './thaa.png'
@@ -63,11 +64,9 @@ export const assets = {
     firebase,
     figma,
     git,
-    mongodb,
     right_arrow_white,
     logo,
     logo_dark,
-    logo1,
     mail_icon,
     mail_icon_dark,
     profile_img,
@@ -98,6 +97,9 @@ export const assets = {
     Redux,
     next,
     nod,
+    express,
+    mongodb,
+    shadcn,
     githb,
     xt,
     linked,
@@ -174,11 +176,11 @@ export const socialLinks = [
         url:'https://www.bing.com/ck/a?!&&p=718192d2d7bee696e9d31778a937e2b526f1d047d6ecec38e94759ac8672c3bfJmltdHM9MTczMDQxOTIwMA&ptn=3&ver=2&hsh=4&fclid=1c3a0ad6-e65b-6871-3f03-1ffde7a96991&psq=www.x.com%2fAnandshakya1209&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9BbmFuZHNoYWt5YTEyMDk&ntb=1',
         Image: assets.xt,
     },
-    {
-        title:'Instagram',
-        url:'https://www.instagram.com/anandshakya505/',
-        Image: assets.insta,
-    },
+    // {
+    //     title:'Instagram',
+    //     url:'https://www.instagram.com/anandshakya505/',
+    //     Image: assets.insta,
+    // },
 ]
 
 export const serviceData = [
@@ -189,11 +191,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, Tailwind CSS,    JavaScript, ReactJs, NextJs' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Computer Applications(BCA) [Present]' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tech stack', description: 'Tailwind CSS, ShadCN-UI, JavaScript, Node.js, ReactJS, Next.js, Express.js, MongoDB' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Computer Applications(BCA)' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 10 projects' }
 ];
 
-export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
-];
+// export const toolsData = [
+//     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+// ];

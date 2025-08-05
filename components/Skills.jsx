@@ -57,6 +57,24 @@ const Skills = () => {
           <h4>NodeJS</h4>
         </div>
         <div
+        data-aos="zoom-in-left"
+        className="flex  p-2 cursor-pointer duration-300  hover:bg-white  ring-2 ring-slate-500 rounded space-x-8 ">
+          <Image src={assets.express} alt="nodejs  " className="w-8 " />
+          <h4>Express.js</h4>
+        </div>
+        <div
+        data-aos="zoom-in-left"
+        className="flex  p-2 cursor-pointer duration-300  hover:bg-white  ring-2 ring-slate-500 rounded space-x-8 ">
+          <Image src={assets.mongodb} alt="mongodb " className="w-8 " />
+          <h4>MongoDB</h4>
+        </div>
+        <div
+        data-aos="zoom-in-left"
+        className="flex  p-2 cursor-pointer duration-300  hover:bg-white  ring-2 ring-slate-500 rounded space-x-8 ">
+          <Image src={assets.shadcn} alt="nodejs  " className="w-8 " />
+          <h4>ShadCN-UI</h4>
+        </div>
+        <div
         data-aos="zoom-in-down"
         className="flex  p-2 cursor-pointer duration-300  hover:bg-white  ring-2 ring-slate-500 rounded space-x-8 ">
           <Image src={assets.tail} alt="tailwind " className="w-8  " />
