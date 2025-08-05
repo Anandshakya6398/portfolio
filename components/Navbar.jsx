@@ -127,7 +127,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#projects" className="font-Outfit" onClick={closeMenu}>
+            <a href="#project" className="font-Outfit" onClick={closeMenu}>
               Projects
             </a>
           </li>
