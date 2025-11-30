@@ -110,6 +110,13 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'Video Streaming Website',
+        description: 'Next.js, Tailwind CSS, ShadCN-UI, Node.js, Express.js, MongoDB',
+        bgImage: '/video.png',
+        url: 'https://frontend-plum-ten-59.vercel.app',
+        git:'https://github.com/Anandshakya6398/filvuetv',
+    },
+    {
         title: 'Coffee shop website',
         description: 'Reactjs,Redux,Tailwind CSS,API,HTML',
         bgImage: '/coffee.png',
@@ -122,6 +129,13 @@ export const workData = [
         bgImage: '/camera.png',
         url: 'https://web-camera-project-by-anandshakya.netlify.app/',
         git:'https://github.com/Anandshakya6398/Web-Camera-Project',
+    }, 
+    {
+        title: ' Quiz App',
+        description: 'Reactjs,WebAPI,Tailwind CSS,HTML',
+        bgImage: '/quiz.png',
+        url: 'https://anand-quizapp.netlify.app',
+        git:'https://github.com/Anandshakya6398/Quiz_App',
     },
     {
         title: 'Weather App',
@@ -131,6 +145,20 @@ export const workData = [
         git:'https://github.com/Anandshakya6398/Weather-web',
     
     },
+    {
+        title: 'Random Chat Web',
+        description: 'Javascript,HTML,CSS',
+        bgImage: '/ywork.png',
+        url: 'https://ywork-assignment.netlify.app',
+        git:'https://github.com/Anandshakya6398/Random',
+    },
+    {
+        title:'Currency Converter web',
+        description:'Javascript,Exchange API,HTML,CSS',
+        bgImage:'/convertor.png',
+        url:'https://currency-converter-by-anandshakya.netlify.app',
+        git:'https://github.com/Anandshakya6398/currency__convertor',
+    }
     
 ]
 // export const moreData = [
