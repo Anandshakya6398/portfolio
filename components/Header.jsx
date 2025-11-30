@@ -52,11 +52,11 @@ const Header = () => {
             </a>
             <a
             data-aos="zoom-in-left"
-
+<<<<<<< HEAD
               href="/Resume (1).pdf"
-
-              // href="/Resume{}.pdf"
-
+=======
+              href="/Resume{}.pdf"
+>>>>>>> 07835b4b10799b5386c5befb85151f84c9db4374
               target="_blank"
               className="px-10   py-3 border rounded-full border-gray-500 flex items-center gap-2"
             >
