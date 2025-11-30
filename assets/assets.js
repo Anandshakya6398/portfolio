@@ -146,6 +146,13 @@ export const workData = [
     
     },
     {
+        title: 'Flip Game',
+        description:'Javascript, CSS, HTML',
+        bgImage: '/flip.png',
+        url: 'https://flipgame1234.netlify.app/',
+        git: 'https://github.com/Anandshakya6398/computing-Game'
+    },
+    {
         title: 'Random Chat Web',
         description: 'Javascript,HTML,CSS',
         bgImage: '/ywork.png',

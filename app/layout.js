@@ -14,7 +14,12 @@ const cursive = Cedarville_Cursive({
 export const metadata = {
   title: "MyPortfolio",
   description: "Anand Kumar",
+  icons: {
+    icon: "/anand1.jpg",
+    shortcut: "/anand1.jpg",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
