@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "out"
+
+[build.environment]
+  NPM_CONFIG_PRODUCTION = "false"
